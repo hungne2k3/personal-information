@@ -1,0 +1,183 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+}
+/* Begin Navi */
+
+#nav .subnav li{
+    /* display: none; */
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav > li > a {
+    color: #fff;
+}
+
+#nav li a {
+    
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    
+}
+
+#nav > li:hover > a{
+    color: #000;
+    background-color: #fff;
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav a{
+    color: #000;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+.fa-solid {
+    font-size: 14px;
+}
+
+#nav {
+    display: inline-block;
+}
+/* End Navi */
+
+/* Begin search */
+#header .search {
+    line-height: 46px;
+    float: right;
+    padding: 0 23px;
+    
+}   
+
+.search .fa-search {
+    
+    font-size: 15px;
+    color: #fff;
+}
+
+#header .search:hover {
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+    
+}
+
+/* End search */
+#header{
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* z-index: 1; */
+}
+/* Begin Slider */
+
+#slider{
+    position: relative;
+    padding-top: 50%;
+    margin-top: 46px;
+    background: url('/workspace/assets/img/Slider/slider1.jpg') top center / cover no-repeat;
+    z-index: -1;
+}
+
+#slider .text-content{
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+#slider .text-heading{
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px;
+}
+
+#slider .text-description{
+    font-size: 15px;
+    margin: 15px;
+}
+
+/* End Slider */
+#contact{
+    
+}
+
+#contact .contact-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+    
+}
+
+#contact .section-heading, .section-sub-heading {
+    text-align: center;
+    width: 100%;
+}
+
+#contact .section-heading{
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 500;
+    /* letter: từng chữ, spacing: Khoảng cách. 
+    thuộc tính này giúp các chữ cái tạo khaongr cách
+    */
+    letter-spacing: 4px;
+}
+
+#contact .section-sub-heading{
+    font-size: 15px;
+    margin: 15px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#contact .about-text {
+    font-size: 15px;
+    margin: 15px;
+    text-align: justify;
+}
+
+#fooder{
+
+}
